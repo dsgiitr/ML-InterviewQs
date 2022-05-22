@@ -1,0 +1,20 @@
+---
+# Put your questions here:
+
+questions:
+  type: mcq
+  text: Which of the following optimization algorithms does not depend on the order of training data?
+  opt:
+    - Batch Gradient Descent
+    - Mini-batch Gradient Descent
+    - Stochastic Gradient Descent
+  ans: 
+    - Batch Gradient Descent
+  q_img: NULL
+  sol:
+    A full batch gradient descent goes through the entire dataset in every iteration. Also, the operations we perform are commutative and hence the order of the training examples does not matter.
+  sol_img: NULL
+  tags: 
+    - gradient-descent
+  diff: easy
+  ref: NULL

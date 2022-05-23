@@ -2,6 +2,7 @@
 # Put your questions here:
 
 questions:
+  title: Gradient Descent dependence on order of training data
   type: mcq
   text: Which of the following optimization algorithms does not depend on the order of training data?
   opt:

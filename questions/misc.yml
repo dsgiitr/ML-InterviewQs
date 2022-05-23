@@ -2,6 +2,7 @@
 # Put your questions here:
 
 questions:
+  title:
   type:
   text: 
   ans:

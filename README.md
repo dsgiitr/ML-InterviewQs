@@ -5,7 +5,5 @@ This repository aims to develop and compile a list of questions focussed on mach
 
 ## Call for Contributions
 
-We welcome community contributions, feel free to add your own question and solution to improve the question bank. Adding new questions isn't the only way to contribute, small improvements or fixes in the questions/solutions existing already are always appreciated. You can also help review pull requests, triage issues and suggest more features. Have a look at our [Contribution Guide](./CONTRIBUTING.md) for more details.
-
-If you’re unsure where to start, reach out at dsg@iitr.ac.in! You may also ask on GitHub, by opening a new issue or leaving a comment on a relevant issue that is already open.
+We welcome community contributions, feel free to add your own question and solution to improve the question bank. Adding new questions isn't the only way to contribute, small improvements or fixes in the questions/solutions existing already are always appreciated. You can also help review pull requests, triage issues and suggest more features. If you’re unsure where to start, have a look at our [Contribution Guide](./CONTRIBUTING.md) for more details or reach out at dsg@iitr.ac.in.
 

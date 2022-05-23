@@ -2,13 +2,22 @@
 # Put your questions here:
 
 questions:
-  title:
-  type:
-  text: 
-  ans:
-  sol:
+  title: Difference between LSTMs and GRUs
+  type: mcq
+  text: Which of the following is not true with respect to LSTMs and GRUs
   opt:
-  tags:
-  img:
-  diff:
-  ref:
+    - Both LSTM and GRU cells have a gating mechanism. An LSTM cell has three gates, while a GRU cell has two.
+    - LSTM has a memory cell state while GRU, similar to RNN does not.
+    - The LSTM cells use tanh and sigmoid non-linearities in its update equations while the GRU cells use only tanh.
+    - A GRU cell has a lower number of parameters than an LSTM cell.
+  ans: 
+    - The LSTM cells use tanh and sigmoid non-linearities in its update equations while the GRU cells use only tanh.
+  q_img: NULL
+  sol:
+    The update equation of the GRU cells also uses both tanh and sigmoid functions.
+  sol_img: NULL
+  tags: 
+    - nlp
+    - rnn
+  diff: easy
+  ref: NULL

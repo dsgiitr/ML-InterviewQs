@@ -41,7 +41,7 @@ We have divided all the questions into five broad categories:
 To request the addition of a new category you can [create an issue](#Create-a-new-Issue).
 
 #### YAML list of acceptable values for each key
-Each of the five ```.yaml``` files that contain questions, have 
+Each question is stored in a key-value format. There are a fixed set of keys, some of which must neccessarily have ```non-NULL``` values. Here is the list of keys alongwith the list of values they can accept:
 | Key         | Description | Accepted Values |
 | :---        |    :----:   |      :----:     |
 | type      | This specifies the type of question (e.g., MCQs, descriptive, etc.).       |mcq, descriptive, num                 |
@@ -51,7 +51,7 @@ Each of the five ```.yaml``` files that contain questions, have
 | q_img   | The path of the image file(s) that you may want to display with the question.        |array, NULL                 |
 | sol   | Further explanation that you may include for how you arrived at the answer.        |any string, NULL                 |
 | sol_img   | The path of the image file(s) that you may want to display with the solution.        |array, NULL                 |
-| tags   | You can assign tags to your question based on the domains it requires knowledge of.         |[List of Tags](https://github.com/dsgiitr/ML-InterviewQs/docs/tags.md/#List-of-Tags)                 |
+| tags   | You can assign tags to your question based on the domains it requires knowledge of.         |[List of Tags](https://github.com/dsgiitr/ML-InterviewQs/tags.md/#List-of-Tags)                 |
 | diff   | The difficulty level of the question|easy, medium, hard                 |
 | ref   | References (Where did you encounter the question)        |any string                 |
 
@@ -59,3 +59,17 @@ To request the addition of a new key you can [create an issue](#Create-a-new-Iss
 
 #### Style guide
 We follow standard effective yaml guidelines. You can refer to [this guide](https://developers.home-assistant.io/docs/documenting/yaml-style-guide/) for more information.
+
+### Pull Request
+When you're finished with the changes, [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), also known as a PR. To know more about pull requests, see [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+Keep these in mind while creating a pull request:
+
+- Don't forget to [link PR to issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) if you are solving one.
+- Enable the checkbox to [allow maintainer edits](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork) so the branch can be updated for a merge. Once you submit your PR, a Docs team member will review your proposal. We may ask questions or request for additional information.
+- We may ask for changes to be made before a PR can be merged, either using [suggested changes](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request) or pull request comments. You can apply suggested changes directly through the UI. You can make any other changes in your fork, then commit them to your branch.
+- As you update your PR and apply changes, mark each conversation as [resolved](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#resolving-conversations).
+- If you run into any merge issues, checkout this [git tutorial](https://lab.github.com/githubtraining/managing-merge-conflicts) to help you resolve merge conflicts and other issues.
+
+### Your PR is merged!
+Congratulations :tada::tada: Team DSG thanks you :sparkles:

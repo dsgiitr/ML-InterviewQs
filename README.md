@@ -1,4 +1,9 @@
 # Machine Learning Interview Questions
-We at Data Science Group, IIT-R aim to develop a list of questions that have been asked in interviews for various data science roles, or can help a person prepare for the same. This has been a highly sought-after resource and we believe that it will help budding data scientists not only at IIT Roorkee, but all over the world:sparkles: 
 
-This repository contains a question bank to help prepare you for ML Interviews. Please contribute if you have some quetions in mind. To know more about contributing, see the [Contribution Guide](./CONTRIBUTING.md).
+This repository aims to develop and compile a list of questions focussed on machine learning interviews for various data science roles, to help prepare candidates for the same. Each question and its solution is critically reviewed and is structured with metadata tags to help sort and identify questions based on topics, difficuty etc.
+
+
+## Call for Contributions
+
+We welcome community contributions, feel free to add your own question and solution to improve the question bank. Adding new questions isn't the only way to contribute, small improvements or fixes in the questions/solutions existing already are always appreciated. You can also help review pull requests, triage issues and suggest more features. If you’re unsure where to start, have a look at our [Contribution Guide](./CONTRIBUTING.md) for more details or reach out at dsg@iitr.ac.in.
+

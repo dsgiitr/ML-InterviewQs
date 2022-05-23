@@ -51,7 +51,7 @@ Each question is stored in a key-value format. There are a fixed set of keys, so
 | q_img   | The path of the image file(s) that you may want to display with the question.        |array, NULL                 |
 | sol   | Further explanation that you may include for how you arrived at the answer.        |any string, NULL                 |
 | sol_img   | The path of the image file(s) that you may want to display with the solution.        |array, NULL                 |
-| tags   | You can assign tags to your question based on the domains it requires knowledge of.         |[List of Tags](https://github.com/dsgiitr/ML-InterviewQs/blob/main/docs/tags.md/#List-of-Tags)                 |
+| tags   | You can assign tags to your question based on the domains it requires knowledge of.         |[List of Tags](https://github.com/dsgiitr/ML-InterviewQs/blob/main/tags.md/#List-of-Tags)                 |
 | diff   | The difficulty level of the question|easy, medium, hard                 |
 | ref   | References (Where did you encounter the question)        |any string                 |
 

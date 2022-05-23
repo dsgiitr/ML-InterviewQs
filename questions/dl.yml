@@ -6,15 +6,15 @@ questions:
   type: mcq
   text: Which of the following is not true with respect to LSTMs and GRUs
   opt:
-    - Both LSTM and GRUs have gating units. LSTMs have three gates while GRUs have two.
-    - LSTM has a memory cell state while GRU similar to RNN does not.
-    - The LSTM uses tanh and sigmoid non-linearities in its update equations while GRU uses only tanh.
-    - GRU has a lower number of parameters than LSTM
+    - Both LSTM and GRU cells have a gating mechanism. An LSTM cell has three gates, while a GRU cell has two.
+    - LSTM has a memory cell state while GRU, similar to RNN does not.
+    - The LSTM cells use tanh and sigmoid non-linearities in its update equations while the GRU cells use only tanh.
+    - A GRU cell has a lower number of parameters than an LSTM cell.
   ans: 
-    - The LSTM uses tanh and sigmoid non-linearities in its update equations while GRU uses only tanh.
+    - The LSTM cells use tanh and sigmoid non-linearities in its update equations while the GRU cells use only tanh.
   q_img: NULL
   sol:
-    The update equation of GRU also uses both tanh and sigmoid functions.
+    The update equation of the GRU cells also uses both tanh and sigmoid functions.
   sol_img: NULL
   tags: 
     - nlp

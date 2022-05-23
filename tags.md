@@ -50,4 +50,4 @@ Currently, there is a standard list of tags to be used, in order to avoid duplic
 - rnn
 - backprop
 
-To request the addition of a new tag, [create an issue](https://github.com/dsgiitr/ML-InterviewQs/CONTRIBUTING.md/#Create-a-new-Issue).
+To request the addition of a new tag, [create an issue](https://github.com/dsgiitr/ML-InterviewQs/blob/main/CONTRIBUTING.md#create-a-new-issue).

@@ -41,5 +41,5 @@ questions:
     - supervised
     - boosting
     - random-forest
-  diff: easy
+  diff: medium
   ref: Microsoft    

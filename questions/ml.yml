@@ -63,3 +63,22 @@ questions:
     - random-forest
   diff: medium
   ref: Microsoft
+  title: Feature selection methods in Machine Learning
+  type: mcq
+  text: Which of the following algorithms are not suitable for feature selection before training a machine learning model?
+  opt:
+    - Chi-Square Test
+    - Lasso Regression
+    - ANOVA (Analysis of Variance)
+    - Ridge Regression
+  ans: 
+    - Ridge Regression
+  q_img: NULL
+  sol:
+    Both Chi-Square Test and ANOVA are statistical tests which select features on the basis of their correlation with the outcome variable. Lasso regression shrinks the coefficients of the irrelevant features to zero thus removing them altogether which results in a useful set of selected features. On the contrary Ridge regression shrinks the coefficient estimate towards zero, but not exactly zero which is why it is not suitable for feature selection.
+  sol_img: NULL
+  tags: 
+    - regularization
+    - dimensionality-reduction
+  diff: easy
+  ref: NULL

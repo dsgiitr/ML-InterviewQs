@@ -19,3 +19,27 @@ questions:
     - gradient-descent
   diff: easy
   ref: NULL
+
+  title: Random Forest vs Boosting
+  type: mcq
+  text: Which statement is false when comparing the random forest algorithm with gradient boosting methods?
+  opt:
+    - Both are ensemble methods.
+    - Both use a learning rate to minimize the loss function.
+    - Gradient boosting methods typically use shallower trees than random forest.
+    - With random forest, each tree is trained independently from the others.
+  ans: 
+    - Both use a learning rate to minimize the loss function.
+  q_img: NULL
+  sol:
+    - Both random forest and boosting are ensemble methods. However, random forest relies on the weak law of large numbers for its accuracy, that is it trains a lot of trees independently, and then selects the model of all the predictions made by the individual decision trees (majority voting) and then returns the result as its final prediction. However, in gradient boosting methods, the trees are not built independently but instead they are built in a sequential manner where each tree effectively learns the mistake from the ones that come before it. Now, since random forest trains each tree independently, it can afford to have deep trees since deep trees have low bias and high variance, and the high variance gets reduced due to model averaging. On the other hand, in gradient boosting methods, if a single tree is deep, it might overfit and get stuck in a local minima very soon. So, it's better to use shallower trees since each of them will have low variance due to low complexity and the large number of trees will also reduce bias. Now, coming to the last option, gradient boosting methods use gradients to optimize the loss where a learning rate is required to control the step size, whereas random forest uses the baggging method which does not require a learning rate.
+  sol_img: NULL
+  tags: 
+    - gradient-descent
+    - trees
+    - ensemble-learning
+    - supervised
+    - boosting
+    - random-forest
+  diff: easy
+  ref: Microsoft    

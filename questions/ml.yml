@@ -22,7 +22,7 @@ questions:
 
   title: Need for feature scaling
   type: mcq
-  text: Which of these methods does not require you to do feature scaling on the input data
+  text: Which of these methods does not require you to do feature scaling on the input data?
   opt:
     - Principal Component Analysis (PCA)
     - Support Vector Machines (SVM)

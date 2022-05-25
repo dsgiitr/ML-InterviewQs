@@ -2,13 +2,14 @@
 # Put your questions here:
 
 questions:
-  title:
-  type:
-  text: 
-  ans:
-  sol:
+  title: CPU vs GPU
+  type: mcq
+  text: Which of the following is not true?
   opt:
+  ans:
+  q_img: NULL
+  sol:
+  sol_img: NULL
   tags:
-  img:
   diff:
   ref:

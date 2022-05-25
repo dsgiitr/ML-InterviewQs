@@ -2,14 +2,21 @@
 # Put your questions here:
 
 questions:
-  title: CPU vs GPU
+  title: CPU (Central Processing Unit) vs GPU (Graphics Processing Unit)
   type: mcq
   text: Which of the following is not true?
   opt:
-  ans:
+    - CPU is composed of a few individually powerful cores.
+    - GPU is composed of a large number of weaker cores.
+    - If we want to add two 4*4 matrices, GPU will be much faster than CPU.
+    - CPU performs all computations sequentially.
+  ans: 
+    - If we want to add two 4*4 matrices, GPU will be much faster than CPU.
   q_img: NULL
   sol:
+    Even the task of adding two 4*4 matrices can be done parallelly with 16 parallel operations. However, very few cores are required for the same. As we know individually, CPU's core is more powerful than that of the GPU, CPU will outperform GPU in this task.
   sol_img: NULL
-  tags:
-  diff:
-  ref:
+  tags: 
+    - parallel-computing
+  diff: medium
+  ref: NULL

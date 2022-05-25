@@ -19,3 +19,23 @@ questions:
     - gradient-descent
   diff: easy
   ref: NULL
+
+  title: Need for feature scaling
+  type: mcq
+  text: Which of these methods does not require you to do feature scaling on the input data?
+  opt:
+    - Principal Component Analysis (PCA)
+    - Support Vector Machines (SVM)
+    - Decision Trees
+    - K Means Clustering
+  ans: Decision Trees
+    - 
+  q_img: NULL
+  sol:
+    Decision trees don't require feature scaling as they use a rule-based approach instead of calculating distances.
+  sol_img: NULL
+  tags: 
+    - svm
+    - trees
+  diff: easy
+  ref: NULL

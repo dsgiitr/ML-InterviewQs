@@ -4,7 +4,7 @@
 questions:
   title: Difference between LSTMs and GRUs
   type: mcq
-  text: Which of the following is not true with respect to LSTMs and GRUs
+  text: Which of the following is not true with respect to LSTMs and GRUs?
   opt:
     - Both LSTM and GRU cells have a gating mechanism. An LSTM cell has three gates, while a GRU cell has two.
     - LSTM has a memory cell state while GRU, similar to RNN does not.

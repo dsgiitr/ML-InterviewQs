@@ -28,8 +28,8 @@ questions:
     - Support Vector Machines (SVM)
     - Decision Trees
     - K Means Clustering
-  ans: Decision Trees
-    - 
+  ans: 
+    - Decision Trees 
   q_img: NULL
   sol:
     Decision trees don't require feature scaling as they use a rule-based approach instead of calculating distances.

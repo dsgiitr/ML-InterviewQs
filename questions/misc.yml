@@ -14,7 +14,7 @@ questions:
     - If we want to add two 4*4 matrices, GPU will be much faster than CPU.
   q_img: NULL
   sol:
-    Even the task of adding two 4*4 matrices can be done parallelly with 16 parallel operations. However, very few cores are required for the same. As we know individually, CPU's core is more powerful than that of the GPU, CPU will outperform GPU in this task.
+    Adding two 4*4 matrices can be done parallelly with 16 parallel operations. However, very few cores are required for the same. Individually, a CPU's core is more powerful than that of a GPU; hence a CPU will outperform a GPU in this task. When the matrix size increases, a GPU will outperform a CPU.
   sol_img: NULL
   tags: 
     - parallel-computing

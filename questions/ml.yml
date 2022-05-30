@@ -20,6 +20,23 @@ questions:
   diff: easy
   ref: NULL
 
+   title: Classification not Regression
+  type: descriptive
+  text: In the standard example of digits recognition, why is it a Classification problem and not a Regression problem?
+  opt: NULL
+  ans: 
+    - Since the output are actually digits and not numerical values and hence the digits are completely independent from digits which are closer to them.
+  q_img: NULL
+  sol:
+    For example; 1 and 7 look quite alike, if we used a regression model on an input which has an ambigious interpretation between 1 and 7, it would give a result of something like 3 or 4 which would be no where near the correct or most appropriate answer because it would average out the results from 1 and 7.
+  sol_img: NULL
+  tags: 
+    - regression
+    - supervised
+    - eda
+  diff: easy
+  ref: NULL
+
   title: Need for feature scaling
   type: mcq
   text: Which of these methods does not require you to do feature scaling on the input data?

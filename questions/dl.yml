@@ -21,3 +21,26 @@ questions:
     - rnn
   diff: easy
   ref: NULL
+
+  title: Comparing BERT and Word2vec embeddings
+  type: mcq
+  text: Assuming you are working on an NLP problem where you have the option to use a pre-trained Word2vec and a pre-trained BERT for embedding.
+        For the sentence "There is a bank near the river bank", which of the following is true?
+  opt:
+    - In the case of BERT, the embedding of "near" only depend on the words before it i.e. "there", "is", "a", "bank"
+    - In the case of Word2vec, the embedding of "near" only depend on the words before it i.e. "there", "is", "a", "bank"
+    - The embeddings of BERT don't have a positional component.
+    - For multiple occurrences of a word in the sentence (for instance "bank" in this sentence), the embedding of Word2vec remains the same for all while that's not the case for BERT.
+  ans: 
+    - For multiple occurrences of a word in the sentence (for instance "bank" in this sentence), the embedding of Word2vec remains the same for all while that's not the case for BERT.
+  q_img: NULL
+  sol:
+    The BERT embeddings are bi-directional, hence it depends on words before and after the given word. 
+    Word2Vec embeddings don't depend on the context of the word during inference.
+    BERT embeddings include a positional component using a sine, cosine function. 
+    Since Word2vec are not contextual they will be the same for all occurrences of a word, while BERT embeddings depend on the context of the word.
+  sol_img: NULL
+  tags: 
+    - nlp
+  diff: easy
+  ref: NULL

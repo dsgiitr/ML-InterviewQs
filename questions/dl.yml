@@ -26,7 +26,7 @@ questions:
   type: mcq
   text: Which of the following are true regarding dropout?
   opt:
-    - Dropout is a method of bagging training.
+    - Dropout is similar to bagging training.
     - Dropout needs to be turned off during testing.
     - Both of the above.
     - Causes the model to overfit on the training data.
@@ -42,5 +42,5 @@ questions:
   sol_img: NULL
   tags: 
     - regularization
-  diff: medium
+  diff: easy
   ref: Chapter 7, Deep Learning Book (https://www.deeplearningbook.org/)

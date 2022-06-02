@@ -1,8 +1,7 @@
 ---
 # Put your questions here:
 
-questions:
-  title: Difference between LSTMs and GRUs
+- title: Difference between LSTMs and GRUs
   type: mcq
   text: Which of the following is not true with respect to LSTMs and GRUs?
   opt:

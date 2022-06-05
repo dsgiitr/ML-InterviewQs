@@ -23,7 +23,7 @@ Questions are divided into five broad categories:
 To request the addition of a new category you can [create an issue](#Create-a-new-Issue).
 
 #### YAML list of acceptable values for each key
-Each question is stored in a key-value format. There are a fixed set of keys, some of which must neccessarily have ```non-NULL``` values. Here is the list of keys alongwith the list of values they can accept:
+Each question is stored as an item of a list with its details in a key-value format. There are a fixed set of keys, some of which must neccessarily have ```non-NULL``` values. Here is the list of keys alongwith the list of values they can accept:
 | Key         | Description | Accepted Values |
 | :---        |    :----:   |      :----:     |
 | title      | The title of the question (for later review)       |any string                 |

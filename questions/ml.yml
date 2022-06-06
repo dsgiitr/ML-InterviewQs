@@ -1,8 +1,7 @@
 ---
 # Put your questions here:
 
-questions:
-  title: Gradient Descent dependence on order of training data
+- title: Gradient Descent dependence on order of training data
   type: mcq
   text: Which of the following optimization algorithms does not depend on the order of training data?
   opt:
@@ -20,7 +19,7 @@ questions:
   diff: easy
   ref: NULL
 
-  title: Need for feature scaling
+- title: Need for feature scaling
   type: mcq
   text: Which of these methods does not require you to do feature scaling on the input data?
   opt:
@@ -40,7 +39,7 @@ questions:
   diff: easy
   ref: NULL
 
-  title: Random Forest vs Boosting
+- title: Random Forest vs Boosting
   type: mcq
   text: Which statement is false when comparing the random forest algorithm with gradient boosting methods?
   opt:
@@ -63,7 +62,8 @@ questions:
     - random-forest
   diff: medium
   ref: Microsoft
-  title: Feature selection methods in Machine Learning
+
+- title: Feature selection methods in Machine Learning
   type: mcq
   text: Which of the following algorithms are not suitable for feature selection before training a machine learning model?
   opt:

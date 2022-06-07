@@ -1,13 +1,17 @@
 ---
 # Put your questions here:
 
-- title:
-  type:
-  text: 
-  ans:
-  sol:
-  opt:
-  tags:
-  img:
-  diff:
-  ref:
+- title: Question on Monty Hall's Problem
+  type: num
+  text: Suppose you are at an interview and the interviewer gives you 11 purse and you need to choose one. One of them has a gold coin and rest of them has stone. You choose purse x then the interviewer opens one purse y which has a stone in it. Now you have a choice to go with your choice or switch to any of the remaining 9 purses. What is the probability you will win this game if you switch?(Give your answer to three places of decimal)
+  opt: NULL
+  ans: 0.101
+  q_img: NULL
+  sol: Let's say you choose purse 1, the probability of your winning is 1/11 as each of the 11 purses have an equally likely chance of containing a gold coin. So the probability that other purses might contain the coin is 10/11. Now let's say interviewer opens purse 2 and shows you it has a stone. Now the original 10/11 probability shifts to the other 9 purses and if you switch you are going to choose one of the purse so probability of your winning is 1/9*10/11 which is 0.101
+  sol_img: NULL
+  tags: 
+    - statistics
+    - probability
+  diff: easy
+  ref: NULL
+

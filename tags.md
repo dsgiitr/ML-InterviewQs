@@ -40,6 +40,7 @@ Currently, there is a standard list of tags to be used, in order to avoid duplic
 - bayes-theorem
 - naive-bayes
 - hypothesis-testing
+- probability
 - statistics
 - dimensionality-reduction
 - knn

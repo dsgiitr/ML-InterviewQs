@@ -1,8 +1,7 @@
 ---
 # Put your questions here:
 
-questions:
-  title: Difference between LSTMs and GRUs
+- title: Difference between LSTMs and GRUs
   type: mcq
   text: Which of the following is not true with respect to LSTMs and GRUs?
   opt:
@@ -21,3 +20,26 @@ questions:
     - rnn
   diff: easy
   ref: NULL
+
+  title: Discussing dropout 
+  type: mcq
+  text: Which of the following are true regarding dropout?
+  opt:
+    - Dropout is similar to bagging training.
+    - Dropout needs to be turned off during testing.
+    - Both of the above.
+    - Causes the model to overfit on the training data.
+  ans: 
+    - Dropout needs to be turned off during testing.
+  q_img: NULL
+  sol:
+    Dropout needs to be turned off during testing as we want the entire representational capacity of the model during testing. 
+    Dropout is similar to a bagging model but there are a few key differences. 
+    First in bagging the models are trained independently of each other whereas the dropout models share parameters with each other. 
+    Second, in bagging each individual model is trained to convergence while that is not the case in dropout (where each model is trained for 1 step).
+    Further D is incorrect since dropout helps reduce overfitting.
+  sol_img: NULL
+  tags: 
+    - regularization
+  diff: easy
+  ref: Chapter 7, Deep Learning Book (https://www.deeplearningbook.org/)

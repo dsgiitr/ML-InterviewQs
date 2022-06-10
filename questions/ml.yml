@@ -83,7 +83,7 @@
   diff: easy
   ref: NULL
   
-  title: Classification not Regression
+- title: Classification not Regression
   type: descriptive
   text: In the standard example of digits recognition, why is it a Classification problem and not a Regression problem?
   opt: NULL

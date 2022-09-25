@@ -1,4 +1,3 @@
----
 # Put your questions here:
 
 - title: Difference between LSTMs and GRUs
@@ -21,7 +20,7 @@
   diff: easy
   ref: NULL
 
-  title: Discussing dropout 
+- title: Discussing dropout 
   type: mcq
   text: Which of the following are true regarding dropout?
   opt:

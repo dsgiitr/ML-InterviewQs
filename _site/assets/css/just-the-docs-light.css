@@ -2260,3 +2260,18 @@ a.skip-to-main { left: -999px; position: absolute; top: auto; width: 1px; height
 a.skip-to-main:focus, a.skip-to-main:active { color: #7253ed; background-color: #fff; left: auto; top: auto; width: 30%; height: auto; overflow: auto; margin: 10px 35%; padding: 5px; border-radius: 15px; border: 4px solid #5e41d0; text-align: center; font-size: 1.2em; z-index: 999; }
 
 div.opaque { background-color: #fff; }
+
+p.question, blockquote.question { background: rgba(44, 132, 250, 0.2); border-left: 4px solid #183385; border-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); padding: .8rem; }
+p.question::before, blockquote.question::before { color: #183385; content: "Question"; display: block; font-weight: bold; text-transform: uppercase; font-size: .75em; padding-bottom: .125rem; }
+p.question > .question-title, blockquote.question > .question-title { color: #183385; display: block; font-weight: bold; text-transform: uppercase; font-size: .75em; padding-bottom: .125rem; }
+
+p.question-title, blockquote.question-title { background: rgba(44, 132, 250, 0.2); border-left: 4px solid #183385; border-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); padding: .8rem; }
+p.question-title > p:first-child, blockquote.question-title > p:first-child { margin-top: 0; margin-bottom: 0; color: #183385; display: block; font-weight: bold; text-transform: uppercase; font-size: .75em; padding-bottom: .125rem; }
+
+blockquote.question { margin-left: 0; margin-right: 0; }
+blockquote.question > p:first-child { margin-top: 0; }
+blockquote.question > p:last-child { margin-bottom: 0; }
+
+blockquote.question-title { margin-left: 0; margin-right: 0; }
+blockquote.question-title > p:nth-child(2) { margin-top: 0; }
+blockquote.question-title > p:last-child { margin-bottom: 0; }

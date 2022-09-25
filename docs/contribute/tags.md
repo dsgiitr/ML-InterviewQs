@@ -1,4 +1,12 @@
-# Tags
+---
+layout: default
+title:
+parent: Contribute
+permalink: tags
+nav_order: 4
+---
+
+# Question Tags
 
 ### What are Tags?
 Each question can be assigned various tags based on the domains it requires knowledge of.
@@ -22,34 +30,13 @@ Assigning tags to each question allows for better and finer segregation of quest
 ### List of Tags
 Currently, there is a standard list of tags to be used, in order to avoid duplicate tags:
 
-- gradient-descent
-- regression
-- softmax
-- regularization
-- multicollinearity
-- svm
-- trees
-- ensemble-learning
-- validation
-- nlp
-- cv
-- eda
-- clustering
-- unsupervised
-- supervised
-- bayes-theorem
-- naive-bayes
-- hypothesis-testing
-- statistics
-- dimensionality-reduction
-- knn
-- metrics
-- cnn
-- pooling
-- ann
-- rnn
-- backprop
-- random-forest
-- boosting
+| gradient-descent | regression | softmax | regularization |
+| multicollinearity | svm | trees | ensemble-learning |
+| validation | nlp | cv | eda |
+| clustering | unsupervised | supervised | bayes-theorem |
+| naive-bayes | hypothesis-testing | statistics | knn |
+| dimensionality-reduction | metrics | cnn | pooling |
+| ann | rnn | backprop | random-forest |
+| boosting | | | |
 
-To request the addition of a new tag, [create an issue](https://github.com/dsgiitr/ML-InterviewQs/blob/main/CONTRIBUTING.md#create-a-new-issue).
+To request the addition of a new tag, [create an issue](/basics#create-a-new-issue).

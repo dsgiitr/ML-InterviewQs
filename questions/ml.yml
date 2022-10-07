@@ -82,3 +82,22 @@
     - dimensionality-reduction
   diff: easy
   ref: NULL
+  
+  - title: Principal component reduction in Machine Learning
+  type: mcq
+  text:  Identify whether true or false:  In PCA the number of input dimensions is equal to principal components.
+  opt:
+    - True
+    - False
+  ans: 
+    - True
+  q_img: NULL
+  sol:In PCA the number of input dimensions is equal to principal components.
+    
+  sol_img: NULL
+  tags: 
+    - Principal Component reduction
+    - dimensionality-reduction
+  diff: easy
+  ref: NULL
+  
